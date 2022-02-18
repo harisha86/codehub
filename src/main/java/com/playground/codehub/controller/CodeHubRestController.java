@@ -1,4 +1,4 @@
-package com.playground.controller;
+package com.playground.codehub.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CodeHubRestController {
     @GetMapping("/")
-	public String index() {
-		return "Greetings from Spring Boot!";
+	public String Welcome() {
+		return "Welcome to home";
 	}
 }
