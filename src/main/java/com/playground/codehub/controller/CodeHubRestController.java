@@ -14,17 +14,17 @@ public class CodeHubRestController {
 		return "Welcome to home - Harisha";
 	}
 
-	@GetMapping("/list")
-	public List getList() {
-		List getAll = new ArrayList<>();
-		getAll.add("one");
-		getAll.add("two");
-		getAll.add("one");
-		return getAll;
-	}
+	// @GetMapping("/list")
+	// public List getList() {
+	// 	List getAll = new ArrayList<>();
+	// 	getAll.add("one");
+	// 	getAll.add("two");
+	// 	getAll.add("one");
+	// 	return getAll;
+	// }
 
-	@GetMapping("/{name}")
-	public String dynamicWelcome(@PathVariable String name) {
-		return name+", "+"Welcome to home";
-	}
+	// @GetMapping("/{name}")
+	// public String dynamicWelcome(@PathVariable String name) {
+	// 	return name+", "+"Welcome to home";
+	// }
 }
